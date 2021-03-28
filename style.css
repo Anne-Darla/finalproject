@@ -1,0 +1,199 @@
+h1, h2, h3 {text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    text-align: center;}
+    
+    html {background-color: black;
+    margin-top: 0.5px;}
+    
+    .container {margin-top: 100px;
+    margin-bottom: 150px;}
+    
+    .thebody, main{background-color: rgb(0, 0, 0);} 
+    
+    .btn {margin-right: 30px;
+    margin-top:30px;
+    margin-bottom: 30px;
+    background-color: magenta;
+    }
+    
+    img {justify-content: center;
+    margin-bottom: 140px;
+    margin-top: 0px;}
+
+    a  {color: chartreuse;}
+    
+    .card { 
+    border-color: rgb(0, 0, 0);
+    background-color: black;
+    border-style: groove;
+    }
+    
+    .col-2 {display: flex;
+    justify-content: center;}
+
+    .experience {
+        font-size: 90px;
+        margin-bottom: 100px;
+        margin-top: 100px;
+        font-family:sans-serif;
+    
+    }
+
+    .description {
+        font-family:'Courier New', Courier, monospace;
+        color: chartreuse;
+    }
+    
+    h1 {
+        overflow: hidden; /* Ensures the content is not revealed until the animation */
+        border-right: .15em solid rgb(31, 173, 255); /* The typwriter cursor */
+        white-space: nowrap; /* Keeps the content on a single line */
+        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+        margin-bottom: 150px;
+        margin-top: 0px;
+        letter-spacing: .15em; /* Adjust as needed */
+        animation: 
+          typing 3.5s steps(40, end),
+          blink-caret .75s step-end infinite;
+
+          
+      }
+      
+      /* The typing effect */
+      @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+      }
+      
+      /* The typewriter cursor effect */
+      @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: rgb(13, 207, 255); }
+    
+     }
+
+
+      .zone {
+        /* padding:30px 50px;
+          margin:40px 60px; */
+        cursor: pointer;
+        /* display:inline-block; SHOULD NOT USE THIS WITH CSS GRID */
+        color: #fff;
+        font-size: 2em;
+        border-radius: 4px;
+        border: 1px solid #bbb;
+        transition: all 0.3s linear;
+      }
+      
+      /* NAV Starts */
+      .main-nav {
+        display: flex;
+        list-style: none;
+        font-size: 0.7em;
+        margin: 0;
+        background-color: rgb(255, 20, 216);
+      }
+      
+      @media only screen and (max-width: 600px) {
+        .main-nav {
+          font-size: 0.5em;
+          padding: 0;
+        }
+      }
+      
+      .push {
+        margin-left: auto;
+      }
+      
+      li {
+        padding: 20px;
+      }
+      
+      a {
+        color: #f5f5f6;
+        text-decoration: none;
+      }
+      /* NAV Ends */
+
+             @media screen and (min-width: 601px) 
+       {
+        .col, h1 {
+          font-size: 50px;
+        }
+    }
+
+      @media screen and (max-width: 500px) {
+        .col, h1 {
+          font-size: 20px;}}
+        @media screen and (min-width: 601px) {
+            .experience {
+              font-size: 80px;
+            }}
+    
+          @media screen and (max-width: 500px) {
+            .experience {
+              font-size: 40px;} }
+
+
+              #inputEmail4, #inputPassword4, #inputAddress, #inputAddress2, #inputCity, #inputZip{background-color:  greenyellow;}
+
+              .form-group{
+                font-size: 30px;
+                text-align: center;
+                color: oldlace;}
+
+
+                h2:hover {
+                color: rgb(69, 255, 252);
+                font-weight: 800;
+                font-kerning: 1000;
+                text-shadow: 10px, 10px, 10px lemonchiffon;}
+
+
+                #neon {
+                    color: #fff;
+                    text-shadow:
+                      0 0 5px rgb(0, 0, 0),
+                      0 0 10px rgb(0, 0, 0),
+                      0 0 20px rgb(0, 0, 0),
+                      0 0 40px rgb(234, 0, 255),
+                      0 0 80px rgb(255, 23, 216),
+                      0 0 90px rgb(255, 0, 255),
+                      0 0 100px rgb(255, 0, 255),
+                      0 0 150px rgb(255, 23, 236);
+                  }
+
+              .container2 {
+                border: rgb(255, 255, 255);
+                border-width: 10px;
+                border-radius: 30px;
+                background-color: chartreuse;
+                border-style: solid;
+                margin-top: 100px;
+                margin-left: 100px;
+                margin-right: 100px;
+                margin-bottom:100px;
+              }
+
+           p {font-size: 40px;
+          font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          color: rgb(0, 0, 0);
+          margin-top: 100px;
+          margin-bottom: 50px;
+          margin-left: 50px;
+          margin-right:50px;}
+
+
+          .click-here {margin-bottom: 100px;
+          margin-top:100px;}
+
+          #neon2 {  
+            font-size: 1em;
+            color: rgb(255, 255, 255);
+            text-shadow:
+              0 0 5px rgb(0, 0, 0),
+              0 0 10px rgb(0, 0, 0),
+              0 0 20px rgb(0, 0, 0),
+              0 0 40px rgb(0, 0, 0),
+              0 0 80px rgb(0, 0, 0),}
